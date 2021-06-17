@@ -14,7 +14,7 @@ getMovies = async () => {
        data : { movies }
       }
     } = await axios.get("https://yts.mx/api/v2/list_movies.json?sort_by=rating"); // not fast  
-    this.setState({ movies , isLoading : false })
+    this.setState({ movies , isLoading : false })   
 }
 
 componentDidMount(){
