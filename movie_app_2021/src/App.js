@@ -14,6 +14,16 @@ class App extends React.Component{
     this.setState(current => ({count: current.count - 1}));
     console.log(this.state.count);
   };
+  // 3
+  componentDidMount(){
+    console.log("Component rendered");
+  }
+  // 2
+  componentDidUpdate(){
+    console.log("I just Update");
+  }
+
+  // 1
   render(){
     return (
     <div>
