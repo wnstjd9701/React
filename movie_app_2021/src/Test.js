@@ -15,4 +15,12 @@ class Test extends React.Component{
     }
 }
 
+/* function Test(){
+    return <div>Hello</div>
+}
+
+--> App.js
+return <Test />
+*/
+
 export default Test;
